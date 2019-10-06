@@ -6,26 +6,32 @@
 <body>
 <header id="header">
     <div class="logo">
-        <img class="header-img" src="https://miro.medium.com/max/1080/1*YBmB5ot7SButH6TkIaA1mg.png">
+        <img id="header-img" src="https://miro.medium.com/max/1080/1*YBmB5ot7SButH6TkIaA1mg.png">
     </div>
     <nav id="nav-bar">
         <ul>
-            <li class="nav-link"> <a href="#about">About</a></li>
-            <li lass="nav-link"><a hreaf="#features">Features </a></li>
-            <li class="nav-link"> <a href="#student-life">Student Life</a></li>
+            <li> <a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#features">Features </a></li>
+            <li> <a class="nav-link" href="#student-life">Student Life</a></li>
             </ul>
         </nav>
 </header>
 
-<section id="video">
-        <iframe width="577" height="325" src="https://www.youtube.com/embed/f9ip1iSAptQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section id="sec-video">
+        <iframe id="video" width="577" height="325" src="https://www.youtube.com/embed/f9ip1iSAptQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
     <h1>Contact us</h1>
-    <form id="form" action="https://www.freecodecamp.com/email-submit"> 
-        <input id="email" placeholder="Email" type="email">
-        <input id="submit" class="btn" type="submit" value="Submit">
-    </form>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+<input
+name="email"
+id="email"
+type="email"
+placeholder="Enter your email address"
+required
+/>
+<input id="submit" type="submit" value="Get Started" class="btn" />
+</form> 
 </section>
 
 
@@ -68,6 +74,41 @@
 
 <section id="features">
     <h1>Features</h1>
+  <div class="sl">
+            <div class="sl-img">
+                <img src="https://www.microverse.org/img/no-upfront-cost-block.png">
+            </div>
+            <div class="desc">
+            <h2>Your Coding Partner & Stand-Up Team</h2>
+            <p>
+                    Learning to code on your own can be lonely and difficult. At Microverse, you’ll join one of the most collaborative and social online school in the world.
+
+                    Every day, you, your coding partner, and your stand-up team will support and hold each other accountable to produce great work while remote pair programming.
+            </p>
+        </div>
+    </div>
+    <div class="sl">
+            <div class="sl-img">
+                <img src="https://www.microverse.org/img/collaborative-learning-block.png">
+            </div>
+            <div class="desc">
+            <h2>NO UPFRONT COST</h2>
+            <p>
+                You owe us nothing until you get a job—no matter what country you’re in. 
+            </p>
+        </div>
+    </div>
+    <div class="sl">
+            <div class="sl-img">
+                <img src="https://www.microverse.org/img/global-opportunities-block.png">
+            </div>
+            <div class="desc">
+            <h2>COLLABORATIVE LEARNING</h2>
+            <p>
+                Learn through pair programming, mentor support, career coach guidance, and code reviews.
+            </p>
+        </div>
+    </div>
 </section>
     
 <h1>Student life</h1>
