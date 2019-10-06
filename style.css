@@ -95,6 +95,11 @@ a{
     width: 20vw;
 }
 
+.sl-img{
+    align-items: center;
+    justify-content: center;
+}
+
 #about .desc {
   margin-left: 140px;
     display: flex;
