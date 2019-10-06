@@ -75,7 +75,48 @@ a{
     margin: 15px 0;
     border: 0;
     background-color: #6f23ff;
+    color:white;
 }
+
+.grid {
+    display: flex;
+}
+
+.about-img{
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+}
+
+#about .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+
+#student-life{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
 
 @media (max-width: 768px){
     nav {
@@ -96,7 +137,25 @@ a{
         padding-bottom: 5px;
     }
 
-    #hero {
+    #video {
         margin-top: 120px;
+    }
+
+    #about .desc {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        height: 150px;
+    }
+
+    #student-life{
+        flex-direction: column;
+    }
+
+    .sl{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
 }
