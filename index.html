@@ -4,7 +4,9 @@
     </head>
 <body>
 <header id="header">
-    <img src="https://miro.medium.com/max/1080/1*YBmB5ot7SButH6TkIaA1mg.png">
+    <div class="logo">
+        <img class="header-img" src="https://miro.medium.com/max/1080/1*YBmB5ot7SButH6TkIaA1mg.png">
+    </div>
     <nav id="nav-bar">
         <ul>
             <li class="nav-link"> <a href="#about">About</a></li>
@@ -14,11 +16,21 @@
         </nav>
 </header>
 
-<section id="about">
-    <h1>About</h1>
+<section id="video">
     <video id="video">
         <source src="https://www.youtube.com/watch?v=f9ip1iSAptQ">
     </video>
+
+    <h1>Contact us</h1>
+    <form id="form" action="https://www.freecodecamp.com/email-submit"> 
+        <input id="email" placeholder="Email" type="email">
+        <input id="submit" class="btn" type="submit" value="Submit">
+    </form>
+</section>
+
+
+<section id="about">
+    <h1>About</h1>   
 </section>
 
 <section id="features">
@@ -27,14 +39,6 @@
 
 <section id="prices">
     <h1>Prices</h1>
-</section>
-
-<section id="contact-us">
-    <h1>Contact us</h1>
-    <form id="form" action="https://www.freecodecamp.com/email-submit"> 
-        <input id="email" placeholder="Email" type="email">
-        <input id="submit" type="submit" value="Submit">
-    </form>
 </section>
 
 </body>
